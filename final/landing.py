@@ -3,7 +3,7 @@ import pandas as pd
 
 def landing_page():
     st.set_page_config(
-        page_title="BMI Health Hub",
+        page_title="Indeks Massa Tubuh",
         page_icon="🧩",
         layout="wide",
         initial_sidebar_state="collapsed"

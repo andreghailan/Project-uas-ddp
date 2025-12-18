@@ -15,8 +15,8 @@ with st.sidebar:
     menu = st.selectbox(
     "Menu",
     [
-        "Dashboard",
-        "Indeks Massa Tubuh (IMT)",
+        "Halaman Utama",
+        "Kalkulator Indeks Masa Tubuh (IBM)",
         "Tips Kesehatan",
         "Riwayat",
         "Tentang Kami"

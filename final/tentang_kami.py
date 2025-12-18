@@ -35,10 +35,10 @@ def tentang_kami():
         st.image("images/agung.jpg", caption="Agung Kurniawan", width=150)
         st.write("Anggota - 0110124136")
     with col2:
-        st.image("images/azizz.jpg", caption="Abdul Aziz", width=150)
+        st.image("images/aziz.jpg", caption="Abdul Aziz", width=150)
         st.write("Anggota - 0110124095")
     with col3:
-        st.image("images/andree.jpg", caption="Andre Ghailan Pratama", width=150)
+        st.image("images/andre.jpg", caption="Andre Ghailan Pratama", width=150)
         st.write("Ketua - 0110124136")
     with col4:
         st.image("images/ridho.jpg", caption="Abdul Aziz", width=150)

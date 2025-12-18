@@ -16,11 +16,10 @@ def riwayat_page():
         st.session_state.data_updated = False
 
     def update_data():
-    # Lakukan pembaruan data atau logika lainnya di sini
         st.session_state.data_updated = True
-        st.rerun() # Memaksa rerun penuh aplikasi segera
+        st.rerun()
 
-        # Opsi untuk menghapus riwayat
+        # ini untuk hapus riwayat guys
     if st.button("Hapus Riwayat", on_click=update_data):
         imt_bmi.riwayat = pd.DataFrame(columns=riwayat.columns)
         imt_bmi._save_data()

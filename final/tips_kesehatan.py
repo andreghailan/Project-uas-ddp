@@ -11,7 +11,7 @@ def tips_kesehatan():
 
     st.title("Tips dan Saran untuk Anda")
     st.write(
-        "Jika IMT (BMI) Anda menunjukkan bahwa Anda berada dalam rentang kelebihan "
+       "Jika IMT (BMI) Anda menunjukkan bahwa Anda berada dalam rentang kelebihan "
         "berat badan atau obesitas, mungkin saatnya untuk melakukan perubahan agar "
         "Anda dapat memiliki berat badan yang lebih sehat. "
         "Klik pada item di bawah ini untuk melihat apa yang dapat Anda lakukan."

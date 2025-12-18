@@ -103,11 +103,11 @@ def dashboard_page():
 
 
 
-    confusion_matrix = pd.DataFrame(
+    klasifikasi = pd.DataFrame(
     {
         "IMT (BMI)": ["Di bawah 18.5", "18.5 - 22.9", "23 - 24.9", "25 - 29.9", "30 dan ke atas"]
     },
     index=["Berat badan kurang", "Berat badan normal", "Berat badan lebih", "Obesitas I", "Obesitas II"],
     )
-    confusion_matrix.index.name = "Klasifikasi"
-    st.table(confusion_matrix)  
+    klasifikasi.index.name = "Klasifikasi"
+    st.table(klasifikasi)  

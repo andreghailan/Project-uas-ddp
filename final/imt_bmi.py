@@ -1,7 +1,7 @@
 import pandas as pd
 from datetime import datetime
 import os
-
+    
 class ImtBmi:
     def __init__(self):
         self.riwayat_file = "riwayat_imt_bmi.csv"

@@ -1,9 +1,10 @@
 import streamlit as st
 
 
+
 def tips_kesehatan():
     st.image(
-        "images/tips.jpg",
+        "final/images/tips.jpg",
         use_container_width=True,
         caption="Tips dan Saran Kesehatan"
     )

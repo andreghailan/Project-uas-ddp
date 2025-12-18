@@ -32,14 +32,14 @@ def tentang_kami():
     st.subheader("Tim Kami")
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        st.image("images/agung.jpg", caption="Agung Kurniawan", width=150)
+        st.image("final/images/agung.jpg", caption="Agung Kurniawan", width=150)
         st.write("Anggota - 0110124136")
     with col2:
-        st.image("images/aziz.jpg", caption="Abdul Aziz", width=150)
+        st.image("final/images/aziz.jpg", caption="Abdul Aziz", width=150)
         st.write("Anggota - 0110124095")
     with col3:
-        st.image("images/andre.jpg", caption="Andre Ghailan Pratama", width=150)
+        st.image("final/images/andre.jpg", caption="Andre Ghailan Pratama", width=150)
         st.write("Ketua - 0110124136")
     with col4:
-        st.image("images/ridho.jpg", caption="Abdul Aziz", width=150)
+        st.image("final/images/ridho.jpg", caption="Abdul Aziz", width=150)
         st.write("Anggota - 0110124095")

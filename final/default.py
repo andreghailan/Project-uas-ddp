@@ -10,9 +10,9 @@ if "imt_bmi" not in st.session_state:
     st.session_state.imt_bmi = ImtBmi()
 
 
-import streamlit as st
-
-menu = st.selectbox(
+with st.sidebar:
+    st.title("Aplikasi Kalkulator Indeks Massa Tubuh (BMI)")
+    menu = st.selectbox(
     "Menu",
     [
         "Dashboard",
@@ -21,7 +21,7 @@ menu = st.selectbox(
         "Riwayat",
         "Tentang Kami"
     ]
-)
+)  
 
 if menu == "Halaman Utama":
     landing_page()   

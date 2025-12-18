@@ -1,6 +1,5 @@
 import streamlit as st
 from imt_bmi import ImtBmi
-from streamlit_option_menu import option_menu 
 from dashboard import dashboard_page
 from tentang_kami import tentang_kami
 from riwayat import riwayat_page
@@ -11,16 +10,18 @@ if "imt_bmi" not in st.session_state:
     st.session_state.imt_bmi = ImtBmi()
 
 
-with st.sidebar:
-    st.title("Aplikasi Kalkulator Indeks Massa Tubuh (BMI)")
-    menu = option_menu(
-        "Menu",
-        ["Halaman Utama", "Kalkulator Indeks Masa Tubuh (IBM)", "Tips Kesehatan", 
-         "Riwayat", "Tentang Kami"],
-         icons=["house", "calculator", "lightbulb", "clock-history", "info-circle"],
-        menu_icon="list",
-        default_index=0,
-    )      
+import streamlit as st
+
+menu = st.selectbox(
+    "Menu",
+    [
+        "Dashboard",
+        "Indeks Massa Tubuh (IMT)",
+        "Tips Kesehatan",
+        "Riwayat",
+        "Tentang Kami"
+    ]
+)
 
 if menu == "Halaman Utama":
     landing_page()   
